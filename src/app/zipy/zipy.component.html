@@ -1,0 +1,9 @@
+<div class="zipy card">
+    <div class="head card-header" [class.togled]="!istogled" (click)="togle()">head of the togle
+        <i class="bi" [ngClass]="{
+            ' bi-arrow-up':istogled,
+            ' bi-arrow-down':!istogled
+        }"></i>
+    </div>
+    <div class="body card-body" *ngIf="!istogled">shiping details</div>
+</div>

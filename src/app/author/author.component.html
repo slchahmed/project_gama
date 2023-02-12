@@ -1,0 +1,7 @@
+<h1>
+    <ul>
+        <div *ngFor="let author of authors">  
+                  <a  [routerLink]="['/author','author.name']">{{author.name}}</a>
+        </div>
+    </ul>
+</h1>

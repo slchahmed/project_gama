@@ -1,0 +1,20 @@
+
+.zipy{
+    border: 1px solid gray;
+    width: 50%;
+}
+.head{
+    width: 100%;
+    border: 2px;
+    border-radius: 2px;
+}
+
+.bi {
+    font-size: 20px;
+    float: right;
+}
+
+.togled{
+    background-color: gray;
+    color: white;
+}
